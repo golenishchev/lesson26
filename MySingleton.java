@@ -14,7 +14,7 @@ public class MySingleton {
 
     }
 
-    public static synchronized MySingleton getInnerInstance() {
+    public static synchronized MySingleton getInstance() {
         if (innerInstance == null) {
             innerInstance = new MySingleton();
         }
